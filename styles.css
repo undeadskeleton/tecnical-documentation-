@@ -1,1 +1,22 @@
+body{
+    display:flex;
+}
 
+header>nav>ul>li{
+    border-bottom:1px solid black;
+    list-style: none;
+   width:100%;
+}
+
+header>nav>ul{
+  
+}
+
+header>nav{
+    
+}
+header{
+    white-space:nowrap;
+    border-right:1px solid black;
+    
+}
