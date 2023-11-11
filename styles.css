@@ -1,5 +1,5 @@
 body{
-    
+  display:flex;  
 }
 
 header>nav>ul>li{
@@ -9,15 +9,15 @@ header>nav>ul>li{
 }
 
 header>nav>ul{
-  
+  position:fixed;
+top:0px;
+left:0px;
+
+
 }
-
-
 
 header{
     white-space:nowrap;
     border-right:1px solid black;
-    position:fixed;
-    top:0px;
-    left:0px;
+    
 }
