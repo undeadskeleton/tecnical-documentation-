@@ -1,4 +1,5 @@
 body{
+    font-size:20px;
     display:flex;
     box-sizing:border-box;
     justify-content:center;
@@ -18,11 +19,27 @@ nav{
 }
 
 nav>div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     border-bottom:2px solid black;
+    height:6.6%;
 }
+
+nav div:last-of-type{
+    border-bottom:none;
+}
+
+
 
 main{
     position:absolute;
     right:0px;
     width:70%;
+}
+
+code{
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
