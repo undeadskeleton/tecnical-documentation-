@@ -1,29 +1,28 @@
 body{
-  display:flex;  
-  flex-wrap: wrap;
+    display:flex;
+    box-sizing:border-box;
+    justify-content:center;
 }
 
-header>nav>ul>li{
-    border-bottom:1px solid black;
-    list-style: none;
-   width:100%;
+a{
+    text-decoration: none;
 }
 
-header>nav{
-position:sticky;
-top:0px;
-left:0px;
-min-width: 200px;
-
-}
-
-header{
-    white-space:nowrap;
+nav{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:30%;
     border-right:1px solid black;
+    height:100%;
+}
+
+nav>div{
+    border-bottom:2px solid black;
 }
 
 main{
-    position: absolute ;
-    top:0px;
+    position:absolute;
     right:0px;
+    width:70%;
 }
