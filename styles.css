@@ -8,16 +8,19 @@ header>nav>ul>li{
    width:100%;
 }
 
-header>nav>ul{
-  position:fixed;
+header>nav{
+position:fixed;
 top:0px;
 left:0px;
-
+min-width: 200px;
 
 }
 
 header{
     white-space:nowrap;
     border-right:1px solid black;
-    
+}
+
+main{
+    position: absolute ;
 }
