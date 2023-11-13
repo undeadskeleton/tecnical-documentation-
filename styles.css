@@ -1,5 +1,6 @@
 body{
   display:flex;  
+  flex-wrap: wrap;
 }
 
 header>nav>ul>li{
@@ -9,7 +10,7 @@ header>nav>ul>li{
 }
 
 header>nav{
-position:fixed;
+position:sticky;
 top:0px;
 left:0px;
 min-width: 200px;
@@ -23,4 +24,6 @@ header{
 
 main{
     position: absolute ;
+    top:0px;
+    right:0px;
 }
