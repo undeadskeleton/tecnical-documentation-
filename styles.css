@@ -1,45 +1,22 @@
-body{
-    font-size:20px;
-    display:flex;
-    box-sizing:border-box;
-    justify-content:center;
+body {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-nav{
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:30%;
-    border-right:1px solid black;
-    height:100%;
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
 }
 
-nav>div{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-bottom:2px solid black;
-    height:6.6%;
-}
-
-nav div:last-of-type{
-    border-bottom:none;
-}
-
-
-
-main{
-    position:absolute;
-    right:0px;
-    width:70%;
-}
-
-code{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+nav > div {
+    border-bottom: 2px solid black;
 }
