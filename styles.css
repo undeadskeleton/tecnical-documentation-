@@ -31,10 +31,18 @@ nav div:last-of-type{
 }
 
 main{
+    
     position:absolute;
-    right:-40px;
+    box-sizing:border-box;
     width:70%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:300px;
+    padding:50px;
+    
 }
+
+
 
 code{
     display:block;
