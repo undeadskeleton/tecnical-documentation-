@@ -30,16 +30,25 @@ nav div:last-of-type{
     border-bottom:none;
 }
 
-
-
 main{
     position:absolute;
-    right:0px;
+    right:-40px;
     width:70%;
 }
 
 code{
-    display:flex;
+    display:block;
+    margin:15px;
+    padding:10px;
+    line-height:2;
+  text-align: left;
+  background-color: #DBDAD3;
+  border-radius:5px;
+}
+
+main>section{
+    dislay:flex;
     justify-content:center;
-    align-items: center;
+    align-items:center;
+   
 }
