@@ -70,3 +70,25 @@ main section code{
       left:310px;
     }
 }
+
+@media (orientation: landscape){
+    nav{
+     overflow:scroll;
+    }
+    
+    main{
+     font-size:20px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 950px){
+    nav{
+        width:26%;
+        font-size:16px;
+    }
+    
+    main{
+        width:70%;
+        left:300px;
+    }
+}
